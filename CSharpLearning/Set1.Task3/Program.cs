@@ -6,7 +6,12 @@ namespace Set1.Task3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string firstName = "Tharani";
+            DateTime joiningDate = new DateTime(2021, 8, 24);
+
+            Console.WriteLine($"My name is {firstName}");
+            Console.WriteLine($"I joined MumsWhoCode on {joiningDate.ToString("d")}");
+            Console.ReadLine();
         }
     }
 }
