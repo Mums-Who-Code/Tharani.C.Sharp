@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace MyApp // Note: actual namespace depends on the project name.
+﻿namespace Set1.Task4
 {
     internal class Program
     {
@@ -30,7 +28,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
             Console.WriteLine("b value : " + b);
 
             c = a * b;
-            Console.WriteLine("Muliply a and b values : " + c);
+            Console.WriteLine("Multiply a and b values : " + c);
 
             a = ++a;
             b = --b;
@@ -40,7 +38,6 @@ namespace MyApp // Note: actual namespace depends on the project name.
             c = a / b;
             Console.WriteLine("Divide a and b values : " + c);
             Console.ReadLine();
-
         }
     }
-}        
+}
