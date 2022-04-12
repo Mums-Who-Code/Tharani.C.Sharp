@@ -3,23 +3,20 @@
     internal class Program
     {
         static void Main(string[] args)
-         {
+        {
 
-             DateTime todayDate = DateTime.Today;
-             Console.WriteLine("Today's Date: " + todayDate.ToString("d"));
+            DateTime todayDate = DateTime.Today;
+            Console.WriteLine("Today's Date: " + todayDate.ToString("d"));
 
-             Random randomNumber = new Random();
-             int generatedRandomNumber = randomNumber.Next(1,15);
-             
-             Console.WriteLine("\nGenerated Random Number :" + generatedRandomNumber);
+            Random randomNumber = new Random();
+            int generatedRandomNumber = randomNumber.Next(1, 15);
 
-             todayDate = todayDate.AddDays(generatedRandomNumber);
+            Console.WriteLine("\nGenerated Random Number :" + generatedRandomNumber);
 
-             Console.WriteLine($"\nRandom Number added to Today's Date: {todayDate.ToString("d")}");
-             Console.ReadLine();
+            todayDate = todayDate.AddDays(generatedRandomNumber);
+
+            Console.WriteLine($"\nRandom Number added to Today's Date: {todayDate.ToString("d")}");
+            Console.ReadLine();
         }
     }
 }
-
-
-        
